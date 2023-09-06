@@ -1,0 +1,170 @@
+.button{
+
+border-radius: 5px;
+
+border: none;
+
+background-color: midnightblue;
+
+color: #FFFF;
+
+text-align: center;
+
+font-size: 28px;
+
+}
+
+.button:hover {background-color: orange;}
+
+.button:active {
+
+background-color: #3e8e41;
+
+box-shadow: 0 5px #666;
+
+}
+a:link {
+
+    color:midnightblue;
+    
+    }
+    
+    a:visited { color:green; }
+    
+    a:hover{
+    
+    color: orange; }
+    
+    a:active { color: darkcyan;
+    
+    }
+    a:link {
+
+        color:midnightblue;
+        
+        }
+        
+        a:visited { color:green; }
+        
+        a:hover{
+        
+        color: orange; }
+        
+        a:active { color: darkcyan;
+        
+        }
+        /*selector digunakan untuk memilih mana bagian dari HTML yang akan diubah*/ /*syntax CSS adalah selector{properties: value;}*/
+
+/*selector dengan nama tag*/
+
+h1{
+
+}
+
+color: black;
+
+/*selector id*/
+
+#judul{
+
+color: orange;
+
+} /*selector class*/
+
+.tengah{
+
+align-self: center; color: blue;
+
+}
+
+/*Multy selector*/
+
+h2, h3, h4{ color: midnightblue;
+
+/*lebih sepesifik lagi bisa*/
+
+h2.tengah{
+
+color: pink;
+
+}
+/*selector digunakan untuk memilih mana bagian dari HTML yang akan diubah*/ /*syntax CSS adalah selector{properties: value;}*/
+
+/*selector dengan nama tag*/
+
+h1{
+
+}
+
+color: black;
+
+/*selector id*/
+
+#judul{
+
+color: orange;
+
+} /*selector class*/
+
+.tengah{
+
+align-self: center; color: blue;
+
+}
+
+/*Multy selector*/
+
+h2, h3, h4{ color: midnightblue;
+
+/*lebih sepesifik lagi bisa*/
+
+h2.tengah{
+
+color: pink;
+
+}
+<!DOCTYPE html>
+
+<html> <head>
+
+<title>Latihan CSS</title>
+
+</head>
+
+<body>
+
+<h1>Belajar CSS</h1>
+
+<h3>Apa Itu CSS?</h3>
+
+<p>CSS atau Cascading Style Sheet adalah dokumen web yang memiliki fungsi
+
+mengatur tampilan dokumen web lain, yaitu HTML. Beberapa contoh pemanfaatan CSS pada HTML adalah untuk mengatur warna latar belakang, gaya huruf, jarak antar elemen, dan masih banyak lagi.<br> CSS terdiri atas kumpulan kode-kode yang keberadaannya tidak menggantikan HTML melainkan sebagai pelengkap agar tampilan dokumen HTML menjadi lebih indah dan dinamis. Berikut ini adalah contoh dokumen CSS.
+
+</p>
+
+<h3>Bagaimana menggunakan CSS?</h3>
+
+<p>Ada 3 cara menggunakan CSS: </p>
+
+<ol>
+
+Inline Styles: Menuliskan kode CSS langsung pada tag yang akan diubah atau diatur style-nya
+
+</li>
+
+<li>
+
+Internal/Embedded Styles: Menuliskan
+
+kode CSS pada bagian header dokumen HTML </li>
+
+<li> Eksternal/Linked Styles: Menuliskan kode CSS pada file terpisah dan dipanggil melalui tag link dari dokumen HTML
+
+</li>
+
+</body>
+
+</ol>
+
+</html>
